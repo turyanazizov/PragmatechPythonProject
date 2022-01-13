@@ -1,0 +1,74 @@
+Keçirilən mövzular:
+- İnterpreter və Compiler dillər
+- Dəyişkənlər
+- Data tiplər
+- string, integer, float, list
+- input
+
+
+Testlər:
+
+1. 3 input daxil edin və daxil edilən ədələrin fərqini tapın
+
+2. word = 'Python'. Verilen stringin uzerinde azı 5 dənə string method tətbiq edin
+
+3. math kitabxanasından istifadə edərək inputdan hələn ədədin kubunu tapın
+
+4. inputdan 3 ədəd götürün və o ədələrin kvadratını bir listə əlavə edin
+
+5. Təsadüfi rəqəmlərdən ibarət olan listin rəqəmlərini kiçikdən böyüyə düzün
+
+6. Bir mesajı dəyişəndə saxlayın və sonra mesajı çapa verin
+
+7. ad və soyad dəyişkənləri yaradın və onlara istədiyiniz kiçik hərflərdən ibarət dəyər verin. Sonra tam_ad adlı dəyərdə ad və soyadın ilk hərflərini böyük şəkildə çapa verərək həmin şəxsə Salam verin.
+
+Nümunə: Salam, Arif Dadaşov! (Ekrana bu yazı çıxsın)
+
+8. sep parametrindən istifadə edərək 4 müxtəlif şəhər adını * işarəsi ilə ayırın
+
+9 .“ Macarıstan” sözünü tərsinə çapa verin
+
+10. Bir sətir koddan istifadə edərək aşağıdakı yazını göründüyü kimi çapa verin. Languages: Python C JavaScript
+
+11. Escape characterlərdən istifadə edərək ekrana bir cümlə çap edin.
+
+12. Istenilen bir mətnin tam yarısını çap edin.
+Məsələn: 2 üstü 5 32-dir. (formattingfən istifadə edin)
+
+13. x = 10, y = 55 “and”-dən istifadə edərək x və y müqayisə edərək boolen dəyərləri çapa verin.
+
+14. word = “istədiyiniz sözü yaza bilərsiz” məsələn word = ‘culture’ “Nineteet Eighty-Four does not present "art-as-culture" but "art-as-function"cüməsini bir dəyişkənə mənimsədin və həmin dəyişkəndə saxlayın və word-ə verdiyiniz sözün bu dəyişkəndə olub-olmamasını yoxlayın. Əgər söz varsa, ekranda belə bir nəticə çıxarın; “Culture” sözü mətndə var. Əgər yoxdursa, “Not found” çapa verin. 
+15. 65 ədədinin 22 ədədinə olan qalığı ilə nisbətinin hasilini çapa verin. 
+16. x-ə istənilən bir ədəd mənimsədin, sonra isə şərt verərək yoxlayın. X 10-dan böyükdürsə və cüt ədədirsə, ekrana “OKAY” yazılsın, əgər yuxarıdakı iki şərtdən biri ödənirsə “NOT OKAY” yazılsın, heç bir şərt ödənməzsə, “BAD” yazılsın 
+
+17. iki ədəd götürüb dəyişkənlərə mənimsədin. Əgər ədələrin fərqi bir-birlərinə olan nisbətin tam hissəsindən böyükdürsə, ekrana “Greater”, bərabərdirsə, “EQUAL” yox əgər kiçikdirsə, “SMALLER” yazılsın.
+
+18. String data tipi yaradın və dəyərini 5.567-yə bərabər edin. Sonra bu dəyişkənin dəyərin 10- luqlara qədər yuvarlaqlaşdırın.
+
+19. my_string = ‘f456.89ts’. my_stringin ədədə bərabər olan hissəsin ilə özündən sonra gələn ən kiçik tam ədədə olan qüvvətini tapın
+
+20. 1 və 8 arasında random bir ədəd götürsün proqram, sonra isə o ədədin kvadrat kökünü tapın (random kitabxansini research edin).
+
+21. 0 və 1 arasında olan təsadüfi bir ədədin 1 və 10 arasında olan təsadüfi bir ədələ hasilini tapın.  (random kitabxansini research edin)
+22. x = “5.89” stringinin tam hissəsinin kubunu tapın.
+23. y = “4.92” stringini integere cast edin.
+
+
+
+Date: Jan 8, 2022 04:03 PM Baku, Tbilisi, Yerevan
+
+Meeting Recording:
+https://us02web.zoom.us/rec/share/6fhMvHH0rkorxd9cUg_bXmzjjRnWgmMsIkxtcQdd1uBHPHESkm0s-MhZHwP_4gbT.EU4nYVI3lbdPXabz
+
+Access Passcode: *@G4N@M4
+
+
+Date: Jan 9, 2022 04:01 PM Baku, Tbilisi, Yerevan
+
+Meeting Recording:
+https://us02web.zoom.us/rec/share/lLbvbGkaXUtrxTPqsn0jcSaE7LCIYwVyQyDjqvUB8yGEU1YRDgbLiiGZPA1yPz6j.rhNzpGAQ53vxMNfO
+
+Access Passcode: C%68!%!F
+
+
+
