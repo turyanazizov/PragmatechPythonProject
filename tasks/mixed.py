@@ -46,3 +46,25 @@
 #     return text[::-1]
 
 # print("Reversed String:",ReverseOfString(txt))
+# -------------------------------------------------------------------------------------------------------------------------------
+#5. Kvadrat tenliyi hell eden funksiya yazin
+
+# import math
+# print("A*x^2+B*x+C=0")
+# a=int(input('Enter A parametr:'))
+# b=int(input('Enter B parametr:'))
+# c=int(input('Enter C parametr:'))
+
+# def QuadraticEquationCalculator(a,b,c):
+#     d=b**2-4*a*c
+#     if d>0:
+#         x1= -1*b + math.sqrt(d)
+#         x2= -1*b - math.sqrt(d)
+#         return x1,x2
+#     elif d==0:
+#         x= -1*b + math.sqrt(d)
+#         return x
+#     elif d<0:
+#         return "There are no real roots..."
+
+# print(QuadraticEquationCalculator(a,b,c))
