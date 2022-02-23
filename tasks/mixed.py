@@ -47,7 +47,7 @@
 
 # print("Reversed String:",ReverseOfString(txt))
 # -------------------------------------------------------------------------------------------------------------------------------
-#5. Kvadrat tenliyi hell eden funksiya yazin
+# 5. Kvadrat tenliyi hell eden funksiya yazin
 
 # import math
 # print("A*x^2+B*x+C=0")
