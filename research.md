@@ -1,4 +1,4 @@
-1. Polimorfizm nedir?
+1. ### Polimorfizm nedir?
 Polimorfizm metodu bir növ overrriding metodudur.Polimorfizm inheritance aldığı classdan overriding yəni dəyişiklik etmək deməkdir.
 2. Inheritance nedir?
 İnheritance bizim dilde varislik kimi tərcümə olunur.Proqramlarşdırmada inheritance daha çox obyektlər üzərində istifadə edilir.Kod təkrarının qarşısını alır.Məsələn 2 classdan biri digərində olan propertylərdən istifadə edirsə bu zaman İnheritance istifadə edərək 2ci class üçün yenidən eyni propertyləri asign etməkdən qaşmış oluruq.
