@@ -14,4 +14,4 @@ Obyektlər Classlardan əmələ gəlir.Belə demək olarsa, bir classın xüsusi
 Atributlar dəyişkənlik, hərəkət, əməllər olunmayan obyektlərdir.Metodlar isə hər hansı bir işi, dəyişikliyi etmək üçün istifadə edilir.Metodlar həm də funksiyalardır.Məsələn "year=2022" burada "year" bir atributdur amma "calculateYear()" bir metoddur və bu metodda müəyyən əmməllərdən istifadə edilir.
 
 6. #### 2 dene class yaradin istediyiniz adda. Inheritance, Plimorfizm, property decorator, obyekt atribut, init, obyekt metod numuneleri yazin.
-7.
+[Numune kod](https://github.com/turyanazizov/PragmatechPythonProject/blob/11d6ea4f4419f0edd85b27352b1870a621f98a63/tasks/classexamples.py)
