@@ -1,0 +1,23 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+<div style="    display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 270px;
+margin-bottom: 315px;">
+    <h1>Blog details :</h1>
+    <br>
+    Author : {{blog.author}}
+    <br>
+    Title : {{blog.title}}
+    <br>
+    Date : {{blog.date}}
+    <br>
+    <br>
+    <a style="background-color:crimson;" href="{% url 'blogs:blogs' %}">Go Blogs page</a>
+</div>
+
+
+
+{% endblock %}
