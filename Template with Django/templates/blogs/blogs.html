@@ -1,19 +1,19 @@
 {% extends 'base/base.html' %}
 {% load static %}
 {% block content %}
-<div style="display: flex;justify-content:center;margin-top:100px">
+
+<div style="display: flex;justify-content:center;margin-top:50px">
 
 <div>
-    {% for blog in blogs %}
-<h1><a href="{% url 'blogs:blog-detail' blog %}">{{blog}}</a></h1>
+<h2>All Books</h2>
+{% for blog in blogs %}
+<h3><a href="{% url 'blogs:blog-detail' blog.title %}">{{blog.title}}</a></h3>
 {% endfor %}
 </div>
 
 </div>
-
-
 <!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:162px">
+<div class="w3-content" style="max-width:2000px;margin-top:12px">
 
 
     <!-- The Band Section -->

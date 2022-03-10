@@ -1,42 +1,17 @@
 from django.shortcuts import render
+from blogs.models import Blog
 
 def blogs(request):
-    blogs=[
-        {
-            'Blog 1':{
-             'author':'Turyan',
-             'title':'Django',
-             'date':'12.02.2022'   
-            },
-            
-            'Blog 2':{
-             'author':'Ali',
-             'title':'Flask',
-             'date':'23.12.2021'   
-            },
-        }
-    ]
-    blogs=blogs[0]
-    return render(request,'blogs/blogs.html',{'blogs':blogs})
+    blogs=Blog.objects.all()
+    context={
+        'blogs':blogs
+    }
+    return render(request,'blogs/blogs.html',context=context)
 
 def blog_detail(request,name):
-    blogs=[
-        {
-            'Blog 1':{
-             'author':'Turyan',
-             'title':'Django',
-             'date':'12.02.2022'   
-            },
-            
-            'Blog 2':{
-             'author':'Ali',
-             'title':'Flask',
-             'date':'23.12.2021'   
-            },
-        }
-    ]
-    blog=blogs[0][name]
-    return render(request,'blogs/blog_detail.html',{'blog':blog})
-
-
-
+    blogs=Blog.objects.all()
+    blog=blogs.filter(title=name)
+    context={
+        'blog':blog
+    }
+    return render(request,'blogs/blog_detail.html',context=context)
