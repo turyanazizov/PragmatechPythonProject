@@ -10,7 +10,7 @@ def blogs(request):
 
 def blog_detail(request,name):
     blogs=Blog.objects.all()
-    blog=blogs.filter(title=name)
+    blog=blogs.filter(title=name).first()
     context={
         'blog':blog
     }

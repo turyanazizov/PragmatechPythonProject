@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'start.apps.StartConfig',
     'contact.apps.ContactConfig',
+    'bank.apps.BankConfig',
 ]
 
 MIDDLEWARE = [
