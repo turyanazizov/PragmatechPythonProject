@@ -1,24 +1,19 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+from django.utils.translation import gettext_lazy as _
 
-class Accounts(models.Model):
-    POSITIONS_CHOICES = (
-        ('Information technologies','Information technologies'),
-        ('Menegment','Menegment'),
-        ('Seller','Seller'),
-        ('Cashier','Cashier'),
-        ('Interner','Interner'),
-    )
+class User(AbstractUser):
+    email = models.EmailField(_('email address'), blank=True, unique=True)
+    bio = models.TextField(blank=True, null=True, help_text='Give some information about yourself')
+    image = models.ImageField(upload_to='users/', blank=True, null=True)
+    first_name = models.CharField(_('first name'), max_length=150, blank=True, db_index=True)
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = ['first_name', 'username','image']
     
-    fullname=models.CharField(max_length=100,blank=False,null=False)
-    department=models.CharField(max_length=100,blank=False,null=False,choices=POSITIONS_CHOICES)
-    profilpicture=models.ImageField(upload_to='accountsPictures/')
-    salary=models.IntegerField(blank=False,null=False)
-    date=models.DateTimeField(auto_now=True)
+    @property
+    def user_image(self):
+        if self.image:
+            return self.image
+        return 'https://www.pngfind.com/pngs/m/470-4703547_icon-user-icon-hd-png-download.png'
 
-    def __str__(self) :
-        return self.fullname
-    
-    class Meta:
-        verbose_name='Account'
-        verbose_name_plural='Accounts'
 
