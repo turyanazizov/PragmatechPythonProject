@@ -1,9 +1,8 @@
-from unicodedata import name
 from django.urls import path
-from contact.views import contact
+from .views import contact
 
 app_name='contact'
 
 urlpatterns = [
-    path('', contact, name='contact'),
+    path('', contact,name='contact'),
 ]
